@@ -8,9 +8,6 @@
 	<link href="/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
 	<link href="/static/css/styles.css" rel="stylesheet" media="screen">
 	<style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
     </style>
     {% render_block "css" %}
   </head>
@@ -33,7 +30,9 @@
         </div>
       </div>
     </div>
-    <div class="container main-container">
+    <div class='baseplate'>
+    </div>
+    <div class="container top-container">
 
       <div class="masthead">
 	     <div class="title-block">
@@ -55,12 +54,14 @@
           </div>
         </div><!-- /.navbar -->
       </div>
-
-      <!-- Jumbotron -->
+   </div>
+   <div class="container main-container">
       <div class="showcase">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <a href="#" class="btn btn-large btn-success">Get started today</a>
+        <ul class='slides'>
+        	<li>
+        		<img src='/static/images/showcase1.png' alt='showcase1'/>
+        	</li>
+        </ul>
       </div>
       <!-- Example row of columns -->
       <div class="row-fluid main-content-block">

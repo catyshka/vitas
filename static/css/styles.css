@@ -1,7 +1,25 @@
+html, body {
+	background-color: #EAEAEA;
+}
 body {
+	padding-top: 40px;
+}
+.baseplate {
+	background-position: center 0;
 	background-color: #476F94;
 	background-image: url("../images/bg-pattern.png");
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	height: 450px;
+	padding: 0;
+	margin: 0;
+}
+.top-container {
+	margin-top: -450px;
+}
+.main-container {
+	-webkit-box-shadow: 0 5px 5px #333;
+     -moz-box-shadow: 0 5px 5px #333;
+          box-shadow: 0 5px 5px #333;
 }
 .muted {
     color: #fff;
@@ -19,6 +37,17 @@ body {
 .showcase {
 	background-color: #fff;
 	overflow: hidden;
+	padding: 15px;
+}
+.showcase .slides {
+	
+}
+.showcase .slides {
+	list-style: none outside none;
+}
+.showcase .slides li {
+	list-style: none outside none;
+	padding: 0 50px;
 }
 .main-content-block {
 	background-color: #fff;
