@@ -3,15 +3,16 @@ html, body {
 }
 body {
 	padding-top: 40px;
+	color: #828282;
 }
 .clear {
 	clear: both;
 }
 .container {
-	width: 960px;
+	width: 980px;
 }
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-    width: 960px;
+    width: 980px;
 }
 .footer {
 	border-width: 0;
@@ -200,11 +201,6 @@ body {
 	border-top-width: 1px;
 	height: 9px;
 }
-
-
-
-
-
 .navbar-top .navbar-inner {
 	background-color: #324A61;
 	background-image: none;
@@ -243,4 +239,45 @@ body {
     text-shadow: none;
     color: #BAC6D1;
     background-color: #fff;
+}
+.header2 {
+	font-size: 28px;
+	color: #5C5C5C;
+	border-bottom: 1px solid #FFFFFF;
+    padding: 30px 20px 26px;
+}
+.catalog {
+	padding: 0 10px;
+}
+.catalog-item  {
+	/*height: 312px;*/
+    width: 33.333%;
+    -moz-box-sizing: border-box;
+    float: left;
+    margin-bottom: 35px;
+    min-height: 1px;
+    padding: 0 10px;
+    position: relative;
+}
+.catalog-item .image-wrapper {
+	background-color: #F6F6F6;
+	border-color: #E9E9E9;
+	border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px;
+}
+.catalog-item .image-wrapper .image-wrapper-inner {
+	overflow: hidden;
+    position: relative;
+}
+.catalog-item .catalog-item-description {
+	margin-top: 19px;
+}
+.catalog-item .catalog-item-title a {
+	font-size: 20px;
+    color: #41607D;
+}
+.catalog-item .catalog-item-title {
+    margin-bottom: 14px;
 }
