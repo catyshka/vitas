@@ -120,8 +120,10 @@ TEMPLATE_DIRS = (
 )
 
 CMS_TEMPLATES = (
-    ('template_1.html', 'Template One'),
-    ('template_2.html', 'Template Two'),
+    ('template_1.html', 'Main'),
+    ('template_2.html', 'Catalog'),
+    ('template_3.html', 'Plain Page'),
+    ('template_4.html', 'Plain Page2'),
 )
 
 LANGUAGES = [
